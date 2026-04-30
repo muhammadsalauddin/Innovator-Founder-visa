@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A-Z Success Process | Innovator Founder Visa</title>
+  <meta
+    name="description"
+    content="Printable A-Z success roadmap for the Innovator Founder Visa, covering the full founder journey from consultation and idea development to endorsement, visa approval, UK launch, and growth planning."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Poppins', 'sans-serif'],
+          },
+          colors: {
+            ink: '#0B1020',
+            mist: '#F3F7FB',
+            slate: '#6B7280',
+            coral: '#F97360',
+            gold: '#F3C96A',
+            teal: '#0F766E',
+            navy: '#0E1A35',
+          },
+          boxShadow: {
+            glow: '0 24px 60px rgba(15, 118, 110, 0.18)',
+            card: '0 20px 50px rgba(14, 26, 53, 0.08)',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    body {
+      background:
+        radial-gradient(circle at top left, rgba(243, 201, 106, 0.18), transparent 26%),
+        radial-gradient(circle at top right, rgba(15, 118, 110, 0.14), transparent 28%),
+        linear-gradient(180deg, #f8fbfd 0%, #ffffff 34%, #f3f7fb 100%);
+    }
+
+    .hero-shell {
+      background-color: #0e1a35;
+      background-image:
+        linear-gradient(96deg, rgba(11, 16, 32, 0.97) 0%, rgba(11, 16, 32, 0.92) 42%, rgba(14, 26, 53, 0.74) 72%, rgba(14, 26, 53, 0.58) 100%),
+        radial-gradient(circle at 16% 18%, rgba(243, 201, 106, 0.14), transparent 25%),
+        radial-gradient(circle at 86% 14%, rgba(15, 118, 110, 0.18), transparent 24%),
+        radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.07) 1px, transparent 0),
+        linear-gradient(145deg, rgba(11, 16, 32, 1), rgba(14, 26, 53, 0.96) 58%, rgba(16, 49, 74, 0.98));
+      background-size: auto, auto, auto, 26px 26px, auto;
+    }
+
+    .tick-box {
+      display: inline-flex;
+      height: 1.1rem;
+      width: 1.1rem;
+      flex: none;
+      border-radius: 0.3rem;
+      border: 1.5px solid rgba(14, 26, 53, 0.2);
+      background: #ffffff;
+    }
+
+    .print-card {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    @page {
+      size: A4;
+      margin: 12mm;
+    }
+
+    @media print {
+      html {
+        scroll-behavior: auto;
+      }
+
+      body {
+        background: #ffffff;
+      }
+
+      .print-hidden {
+        display: none !important;
+      }
+
+      .page-shell {
+        max-width: none !important;
+        padding: 0 !important;
+      }
+
+      .print-card,
+      .print-table {
+        box-shadow: none !important;
+        border-color: rgba(14, 26, 53, 0.15) !important;
+      }
+
+      .print-tone,
+      .hero-shell {
+        background: #ffffff !important;
+        color: #0b1020 !important;
+      }
+
+      .print-tone *,
+      .print-table * {
+        color: inherit !important;
+      }
+
+      a {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+    }
+  </style>
+</head>
+<body class="font-sans text-ink antialiased">
+  <header class="print-hidden sticky top-0 z-40 border-b border-white/60 bg-white/85 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="inline-flex items-center gap-3 text-navy transition hover:text-teal">
+        <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-navy text-white shadow-glow">
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M10.75 6 5 12l5.75 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6 12h13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span>
+          <span class="block font-display text-lg font-bold tracking-tight">Innovator Founders</span>
+          <span class="block text-xs font-medium uppercase tracking-[0.22em] text-slate">Back to main page</span>
+        </span>
+      </a>
+      <div class="flex items-center gap-3">
+        <a href="#next-step" class="hidden rounded-full border border-navy/12 px-5 py-3 text-sm font-semibold text-navy transition hover:border-teal hover:text-teal sm:inline-flex">Jump to next step</a>
+        <button id="print-button" type="button" class="inline-flex items-center justify-center rounded-full bg-coral px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-coral/25 transition hover:-translate-y-0.5 hover:bg-[#eb614b]">Print / Save PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+    <section class="hero-shell print-tone overflow-hidden rounded-[38px] px-6 py-10 text-white shadow-glow sm:px-8 lg:px-12 lg:py-12">
+      <div class="grid gap-8 lg:grid-cols-[minmax(0,1.08fr)_minmax(320px,0.92fr)] lg:items-start">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white/90 backdrop-blur">
+            <span class="h-2 w-2 rounded-full bg-gold"></span>
+            Full founder journey from first call to UK growth planning
+          </div>
+          <h1 class="mt-7 font-display text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">A-Z Success Process</h1>
+          <p class="mt-5 max-w-3xl text-lg leading-8 text-white/80 sm:text-xl">This page shows the full Innovator Founder Visa roadmap from first consultation through endorsement, visa approval, relocation, business launch, and long-term growth planning. It works on screen and prints cleanly as a PDF.</p>
+          <div class="mt-8 grid gap-4 sm:grid-cols-3">
+            <div class="rounded-[26px] border border-white/12 bg-white/10 p-5 backdrop-blur">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-gold">Roadmap scope</p>
+              <p class="mt-2 text-lg font-semibold">12 connected stages</p>
+            </div>
+            <div class="rounded-[26px] border border-white/12 bg-white/10 p-5 backdrop-blur">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-gold">Best use</p>
+              <p class="mt-2 text-lg font-semibold">Client calls, PDF follow-up, process explanation</p>
+            </div>
+            <div class="rounded-[26px] border border-white/12 bg-white/10 p-5 backdrop-blur">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-gold">Outcome</p>
+              <p class="mt-2 text-lg font-semibold">Clear view of how success is built step by step</p>
+            </div>
+          </div>
+        </div>
+        <aside class="print-card rounded-[30px] border border-white/12 bg-white/8 p-6 backdrop-blur">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-gold">How to use this page</p>
+          <ol class="mt-5 space-y-4 text-sm leading-7 text-white/80">
+            <li>Walk clients through the full roadmap so they understand what happens before and after endorsement.</li>
+            <li>Use the success markers to explain what a strong case looks like at each stage.</li>
+            <li>Use Print / Save PDF when you want to send the process as a branded follow-up document.</li>
+          </ol>
+          <div class="mt-6 rounded-[24px] border border-white/12 bg-white/10 p-5">
+            <p class="text-sm font-semibold text-white">Positioning note</p>
+            <p class="mt-2 text-sm leading-7 text-white/76">This is not just an immigration sequence. It is a founder-building process where business credibility and endorsement readiness drive the overall result.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+      <article class="print-card rounded-[28px] border border-navy/10 bg-white p-6 shadow-card">
+        <p class="text-xs font-semibold uppercase tracking-[0.24em] text-teal">Start</p>
+        <h2 class="mt-3 text-2xl font-bold tracking-tight text-navy">Founder clarity</h2>
+        <p class="mt-4 text-sm leading-7 text-slate">We begin by understanding the founder profile, current business idea, and route suitability.</p>
+      </article>
+      <article class="print-card rounded-[28px] border border-navy/10 bg-white p-6 shadow-card">
+        <p class="text-xs font-semibold uppercase tracking-[0.24em] text-teal">Middle</p>
+        <h2 class="mt-3 text-2xl font-bold tracking-tight text-navy">Endorsement strength</h2>
+        <p class="mt-4 text-sm leading-7 text-slate">The central stage is building a business case strong enough to pass endorsement scrutiny.</p>
+      </article>
+      <article class="print-card rounded-[28px] border border-navy/10 bg-white p-6 shadow-card">
+        <p class="text-xs font-semibold uppercase tracking-[0.24em] text-teal">Approval</p>
+        <h2 class="mt-3 text-2xl font-bold tracking-tight text-navy">Visa execution</h2>
+        <p class="mt-4 text-sm leading-7 text-slate">Once endorsement is in place, the visa stage depends on clean documents, timing, and consistency.</p>
+      </article>
+      <article class="print-card rounded-[28px] border border-navy/10 bg-white p-6 shadow-card">
+        <p class="text-xs font-semibold uppercase tracking-[0.24em] text-teal">Outcome</p>
+        <h2 class="mt-3 text-2xl font-bold tracking-tight text-navy">UK launch and growth</h2>
+        <p class="mt-4 text-sm leading-7 text-slate">Success continues after arrival through setup, traction, compliance, and long-term planning.</p>
+      </article>
+    </section>
+
+    <section class="mt-8 print-card rounded-[32px] border border-navy/10 bg-white p-8 shadow-card">
+      <div class="max-w-2xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.25em] text-teal">Roadmap overview</p>
+        <h2 class="mt-4 font-display text-3xl font-bold tracking-tight text-navy">The full A-Z founder success process</h2>
+      </div>
+      <div class="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 1</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Consultation</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Understand founder goals, current readiness, and route fit.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 2</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Eligibility review</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Assess profile strength, risks, documents, English, and funds.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 3</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Idea validation</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Test whether the business concept is innovative, viable, and scalable.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 4</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">UK market positioning</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Refine customer focus, differentiation, and commercial logic.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 5</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Business model build</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Clarify how the company makes money, grows, and creates long-term value.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 6</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Plan and deck creation</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Turn the concept into clear founder-facing and assessor-facing materials.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 7</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Endorsement preparation</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Align the case around what endorsement bodies want to see.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 8</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Interview readiness</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Prepare the founder to explain the business clearly and confidently.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 9</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Endorsement decision</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Submit the case and manage the critical transition into visa-stage readiness.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 10</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Visa application</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Coordinate supporting evidence, timing, and filing consistency.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 11</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Relocation and setup</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Register the company, prepare the bank setup, branding, and first launch steps.</p>
+        </article>
+        <article class="rounded-[24px] bg-mist p-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Stage 12</p>
+          <h3 class="mt-2 text-lg font-semibold text-navy">Growth and long-term planning</h3>
+          <p class="mt-3 text-sm leading-7 text-slate">Move from arrival to traction, compliance, and longer-term settlement planning.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mt-8 space-y-5">
+      <article class="print-card rounded-[32px] border border-navy/10 bg-white p-8 shadow-card">
+        <div class="grid gap-8 lg:grid-cols-[180px_minmax(0,1fr)]">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Phases A-D</p>
+            <h2 class="mt-3 font-display text-3xl font-bold tracking-tight text-navy">Foundation</h2>
+          </div>
+          <div class="grid gap-6 lg:grid-cols-3">
+            <div>
+              <h3 class="text-lg font-semibold text-navy">A. Consultation</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">We start by understanding the founder, the business idea, and the realistic route fit.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The founder knows where they stand and what the route actually requires.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-navy">B. Eligibility review</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">We identify document gaps, English issues, financial questions, and background risks early.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The case is grounded in real requirements, not assumptions.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-navy">C-D. Idea validation and market positioning</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">We test whether the idea can stand up commercially in the UK and refine its positioning.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The founder can explain what makes the idea relevant, differentiated, and scalable.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="print-card rounded-[32px] border border-navy/10 bg-white p-8 shadow-card">
+        <div class="grid gap-8 lg:grid-cols-[180px_minmax(0,1fr)]">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Phases E-H</p>
+            <h2 class="mt-3 font-display text-3xl font-bold tracking-tight text-navy">Build the Case</h2>
+          </div>
+          <div class="grid gap-6 lg:grid-cols-3">
+            <div>
+              <h3 class="text-lg font-semibold text-navy">E. Business model build</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">We turn the concept into a believable operating model with revenue logic and growth direction.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The plan sounds like a business, not just an idea.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-navy">F. Plan and deck creation</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">We produce clearer materials that organize the founder story, market logic, and scale case.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The case becomes easier to review, explain, and defend.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-navy">G-H. Endorsement prep and interview readiness</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">We shape the materials around assessor expectations and prepare the founder to speak credibly.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The founder and the documents tell the same convincing story.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="print-card rounded-[32px] border border-navy/10 bg-white p-8 shadow-card">
+        <div class="grid gap-8 lg:grid-cols-[180px_minmax(0,1fr)]">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.22em] text-teal">Phases I-L</p>
+            <h2 class="mt-3 font-display text-3xl font-bold tracking-tight text-navy">Approval to Growth</h2>
+          </div>
+          <div class="grid gap-6 lg:grid-cols-3">
+            <div>
+              <h3 class="text-lg font-semibold text-navy">I-J. Endorsement and visa stage</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">After endorsement, the focus shifts to clean visa evidence, timing, and consistency across the file.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The transition from endorsement to visa filing is smooth and well-coordinated.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-navy">K. Relocation and launch</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">Once approved, the founder needs a realistic setup path for company registration, branding, operations, and early traction.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The founder enters the UK with a practical launch plan, not just a visa grant.</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-navy">L. Growth and long-term planning</h3>
+              <p class="mt-3 text-sm leading-7 text-slate">Success after arrival depends on execution, active business growth, and a view toward later milestones such as ILR.</p>
+              <p class="mt-3 text-sm font-semibold text-navy">Success marker</p>
+              <p class="mt-2 text-sm leading-7 text-slate">The founder is building a sustainable UK business, not just completing a one-off application.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+      <article class="print-card rounded-[32px] border border-navy/10 bg-white p-8 shadow-card">
+        <p class="text-sm font-semibold uppercase tracking-[0.25em] text-teal">What drives success</p>
+        <ul class="mt-6 space-y-4 text-sm leading-7 text-slate">
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>A business idea that is genuinely stronger than a generic trading concept.</span></li>
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>A founder who understands the market and can explain the business clearly.</span></li>
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>Consistent documentation across business, endorsement, and visa stages.</span></li>
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>Preparation for what happens after approval, not just focus on the application itself.</span></li>
+        </ul>
+      </article>
+      <article class="print-card rounded-[32px] border border-navy/10 bg-white p-8 shadow-card">
+        <p class="text-sm font-semibold uppercase tracking-[0.25em] text-teal">Common blockers</p>
+        <ul class="mt-6 space-y-4 text-sm leading-7 text-slate">
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>Weak business ideas that do not show innovation or scale.</span></li>
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>Founders who cannot explain the model confidently.</span></li>
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>Late discovery of English, finance, or immigration-history issues.</span></li>
+          <li class="flex items-start gap-3"><span class="tick-box"></span><span>Template-style plans that lack commercial credibility.</span></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="mt-8 print-card rounded-[32px] border border-navy/10 bg-white p-8 shadow-card">
+      <div class="max-w-2xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.25em] text-teal">Who does what</p>
+        <h2 class="mt-4 font-display text-3xl font-bold tracking-tight text-navy">Founder role and support role</h2>
+      </div>
+      <div class="mt-8 overflow-x-auto rounded-[28px] border border-navy/10 print-table">
+        <table class="min-w-full divide-y divide-navy/10 text-left text-sm text-slate">
+          <thead class="bg-mist text-navy">
+            <tr>
+              <th class="px-5 py-4 font-semibold">Area</th>
+              <th class="px-5 py-4 font-semibold">Founder responsibility</th>
+              <th class="px-5 py-4 font-semibold">Our role</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-navy/10 bg-white">
+            <tr>
+              <td class="px-5 py-4 font-medium text-navy">Business idea</td>
+              <td class="px-5 py-4">Provide the raw concept, experience, and ambition.</td>
+              <td class="px-5 py-4">Refine, challenge, and position it for the route.</td>
+            </tr>
+            <tr>
+              <td class="px-5 py-4 font-medium text-navy">Documents</td>
+              <td class="px-5 py-4">Share accurate and complete information on time.</td>
+              <td class="px-5 py-4">Review, structure, and coordinate what is needed.</td>
+            </tr>
+            <tr>
+              <td class="px-5 py-4 font-medium text-navy">Endorsement readiness</td>
+              <td class="px-5 py-4">Understand the business and speak confidently.</td>
+              <td class="px-5 py-4">Prepare the case and coach the delivery.</td>
+            </tr>
+            <tr>
+              <td class="px-5 py-4 font-medium text-navy">Post-approval execution</td>
+              <td class="px-5 py-4">Actively run and grow the business in the UK.</td>
+              <td class="px-5 py-4">Guide setup, launch priorities, and planning logic.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="next-step" class="mt-8 print-card rounded-[36px] bg-gradient-to-br from-navy via-[#152749] to-teal p-8 text-white shadow-glow sm:p-10">
+      <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(320px,0.9fr)] lg:items-center">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-gold">Next step</p>
+          <h2 class="mt-4 font-display text-3xl font-bold tracking-tight sm:text-4xl">Use the roadmap to show clients how full success is actually built.</h2>
+          <p class="mt-5 max-w-2xl text-lg leading-8 text-white/80">This page is strongest when used alongside the checklist, package pages, and pricing guide. It connects them into one complete founder journey.</p>
+        </div>
+        <div class="rounded-[30px] border border-white/12 bg-white/10 p-6 backdrop-blur">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-gold">Suggested follow-up</p>
+          <ul class="mt-5 space-y-3 text-sm leading-7 text-white/82">
+            <li class="flex items-start gap-3"><span class="tick-box border-white/30 bg-transparent"></span><span>Send this page as a PDF after explaining the route on a discovery call.</span></li>
+            <li class="flex items-start gap-3"><span class="tick-box border-white/30 bg-transparent"></span><span>Pair it with the checklist page when a founder asks what to prepare first.</span></li>
+            <li class="flex items-start gap-3"><span class="tick-box border-white/30 bg-transparent"></span><span>Pair it with the package pages when a founder asks what level of support they need.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="print-hidden border-t border-navy/10 bg-white/70">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 text-sm text-slate sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+      <p>&copy; 2026 Innovator Founders. A-Z success roadmap.</p>
+      <div class="flex flex-wrap gap-5">
+        <a href="index.html" class="transition hover:text-teal">Main page</a>
+        <a href="checklist.html" class="transition hover:text-teal">Checklist</a>
+        <a href="pricing.html" class="transition hover:text-teal">Pricing guide</a>
+        <a href="#next-step" class="transition hover:text-teal">Next step</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const printButton = document.getElementById('print-button');
+
+    if (printButton) {
+      printButton.addEventListener('click', () => {
+        window.print();
+      });
+    }
+  </script>
+</body>
+</html>
