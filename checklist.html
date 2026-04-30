@@ -137,25 +137,54 @@
   </style>
 </head>
 <body class="font-sans text-ink antialiased">
-  <header class="print-hidden sticky top-0 z-40 border-b border-white/60 bg-white/85 backdrop-blur-xl">
-    <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-      <a href="index.html" class="inline-flex items-center gap-3 text-navy transition hover:text-teal">
-        <span class="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-navy text-white shadow-glow">
-          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M10.75 6 5 12l5.75 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M6 12h13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+  <header class="print-hidden sticky top-0 z-40 px-3 pt-3 sm:px-4 lg:px-6">
+    <div class="mx-auto max-w-7xl overflow-hidden rounded-[30px] border border-white/70 bg-white/88 shadow-[0_20px_60px_rgba(14,26,53,0.12)] backdrop-blur-xl">
+      <div class="flex items-center gap-3 px-4 py-4 sm:px-6 lg:px-7">
+        <a href="index.html" class="flex min-w-0 flex-1 items-center gap-3 text-navy transition hover:text-teal">
+          <span class="relative inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[18px] bg-[linear-gradient(145deg,#0b1020,#13304b)] text-white shadow-[0_18px_34px_rgba(14,26,53,0.22)]">
+            <svg class="h-8 w-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="4" width="40" height="40" rx="14" fill="#0E1A35" />
+              <path d="M15 31V17H19.4V31H15Z" fill="#F3F7FB" />
+              <path d="M24 31V17H29.4C34.4 17 37 19.26 37 23.62C37 27.9 34.3 31 29.06 31H24ZM28.4 27.38H29.02C31.68 27.38 32.62 25.86 32.62 23.72C32.62 21.3 31.46 20.62 29.02 20.62H28.4V27.38Z" fill="#F3F7FB" />
+              <path d="M34.5 10.5L39 15" stroke="#F3C96A" stroke-width="3" stroke-linecap="round" />
+              <path d="M9 38L15 32" stroke="#0F766E" stroke-width="3" stroke-linecap="round" />
+            </svg>
+          </span>
+          <span class="min-w-0">
+            <span class="block truncate font-display text-base font-bold tracking-tight sm:text-lg">Innovator Founders</span>
+            <span class="mt-1 block truncate text-[0.62rem] font-semibold uppercase tracking-[0.24em] text-slate sm:text-[0.68rem]">Preparation Checklist</span>
+          </span>
+        </a>
+        <span class="hidden rounded-full border border-gold/40 bg-gold/10 px-3 py-2 text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-navy xl:inline-flex">Printable resource</span>
+        <div class="hidden items-center gap-3 lg:flex">
+          <a href="#send-pack" class="rounded-full border border-navy/12 bg-white px-5 py-3 text-sm font-semibold text-navy transition hover:-translate-y-0.5 hover:border-teal hover:text-teal">Jump to next step</a>
+          <button type="button" data-print-trigger class="inline-flex items-center justify-center rounded-full bg-coral px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-coral/25 transition hover:-translate-y-0.5 hover:bg-[#eb614b]">Print / Save PDF</button>
+        </div>
+        <button id="menu-toggle" type="button" class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-navy/12 bg-white text-navy shadow-sm lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation">
+          <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16" />
           </svg>
-        </span>
-        <span>
-          <span class="block font-display text-lg font-bold tracking-tight">Innovator Founders</span>
-          <span class="block text-xs font-medium uppercase tracking-[0.22em] text-slate">Back to main page</span>
-        </span>
-      </a>
-      <div class="flex items-center gap-3">
-        <a href="#send-pack" class="hidden rounded-full border border-navy/12 px-5 py-3 text-sm font-semibold text-navy transition hover:border-teal hover:text-teal sm:inline-flex">Jump to next step</a>
-        <button id="print-button" type="button" class="inline-flex items-center justify-center rounded-full bg-coral px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-coral/25 transition hover:-translate-y-0.5 hover:bg-[#eb614b]">
-          Print / Save PDF
         </button>
+      </div>
+      <div class="hidden border-t border-navy/8 lg:block">
+        <div class="flex flex-wrap items-center gap-2 px-4 py-3 sm:px-6 lg:px-7">
+          <a href="index.html" class="rounded-full border border-transparent bg-mist px-4 py-2 text-sm font-semibold text-navy transition hover:-translate-y-0.5 hover:border-navy/10 hover:bg-white">Home</a>
+          <a href="pricing.html" class="rounded-full border border-transparent bg-mist px-4 py-2 text-sm font-semibold text-navy transition hover:-translate-y-0.5 hover:border-navy/10 hover:bg-white">Pricing Guide</a>
+          <a href="az-process.html" class="rounded-full border border-transparent bg-mist px-4 py-2 text-sm font-semibold text-navy transition hover:-translate-y-0.5 hover:border-navy/10 hover:bg-white">A-Z Process</a>
+          <a href="checklist.html" class="rounded-full border border-teal/20 bg-teal/10 px-4 py-2 text-sm font-semibold text-teal">Checklist</a>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden border-t border-navy/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(243,247,251,0.94))] px-4 py-4 lg:hidden">
+        <nav class="grid gap-2 text-sm font-semibold text-navy sm:grid-cols-2">
+          <a href="index.html" class="rounded-2xl border border-navy/8 bg-white px-4 py-3 transition hover:border-teal/30 hover:bg-mist">Home</a>
+          <a href="pricing.html" class="rounded-2xl border border-navy/8 bg-white px-4 py-3 transition hover:border-teal/30 hover:bg-mist">Pricing Guide</a>
+          <a href="az-process.html" class="rounded-2xl border border-navy/8 bg-white px-4 py-3 transition hover:border-teal/30 hover:bg-mist">A-Z Process</a>
+          <a href="checklist.html" class="rounded-2xl border border-teal/20 bg-teal/10 px-4 py-3 text-teal">Checklist</a>
+        </nav>
+        <div class="mt-4 flex flex-col gap-3">
+          <a href="#send-pack" class="rounded-2xl border border-navy/10 bg-white px-4 py-3 text-center text-sm font-semibold text-navy transition hover:border-teal hover:text-teal">Jump to next step</a>
+          <button type="button" data-print-trigger class="rounded-2xl bg-coral px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-coral/25 transition hover:bg-[#eb614b]">Print / Save PDF</button>
+        </div>
       </div>
     </div>
   </header>
@@ -551,11 +580,30 @@
   </footer>
 
   <script>
-    const printButton = document.getElementById('print-button');
+    const printButtons = document.querySelectorAll('[data-print-trigger]');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuToggle = document.getElementById('menu-toggle');
 
-    if (printButton) {
-      printButton.addEventListener('click', () => {
+    printButtons.forEach((button) => {
+      button.addEventListener('click', () => {
         window.print();
+      });
+    });
+
+    if (mobileMenu && menuToggle) {
+      const menuLinks = mobileMenu.querySelectorAll('a');
+
+      menuToggle.addEventListener('click', () => {
+        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', String(!expanded));
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      menuLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        });
       });
     }
   </script>
